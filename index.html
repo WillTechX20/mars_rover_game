@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<style>
+			html {
+			text-align: center;
+			font-family: system-ui;
+			}
+
+			body {
+			background-image: url("images/mars.gif");
+    		background-position: center;
+    		background-size: cover;
+			}
+
+			canvas {
+			border-width: 10px; 
+			border-style: ridge;
+			margin-top: 30px;
+			background-color: white;
+			}
+
+			h1 {
+			text-decoration-color: aqua;
+			text-decoration: underline;
+			}
+		</style>		
+		<title>Rover On Mars Simulation</title>
+		<meta name="veiwport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="setUpMarsRoverGame();">
+		<center>
+			<h1>Moving Rover On Mars</h1>
+			<canvas width="800" height="600"></canvas>
+			<h2><b>Note: </b>Press any arrow key if the rover isn't visible!</h2>
+		</center>
+		<div class="script">
+			<script src="main.js"></script>
+		</div>
+	</body>
+</html>
